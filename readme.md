@@ -22,7 +22,7 @@ Since this is a custom-built tool, you install it via Chrome's **Developer Mode*
 ## 🚀 How to Use
 
 1. **Navigate to Moodle**: Go to your University's Moodle review page
-2. **Activate the extension**: click the 🧩 icon in your browser, and click on the extension icon to deactivate it
+2. **Activate the extension**: click the 🧩 icon in your browser, and click on the extension icon to activate it
 3. **The "Blind" Effect**: The extension automatically detects the review page. You will see your original selections, but the following will be hidden:
 * The "Correct/Incorrect" status text.
 * The green checkmarks and red crosses.
