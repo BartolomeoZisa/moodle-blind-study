@@ -1,13 +1,27 @@
 const hideCSS = `
+  /* Hide feedback, correct/incorrect markers, icons */
   .outcome, .feedback, .generalfeedback, .rightanswer, 
   .icon.fa-circle-check, .icon.fa-circle-xmark, .fa-check, .fa-remove,
   .info .state, .specificfeedback {
       display: none !important;
   }
+
+  /* Remove background color for correct/incorrect answers */
   .que .correct, .que .incorrect {
       background-color: transparent !important;
   }
+
+  /* Hide checkboxes (user selections) */
+  input[type="checkbox"] {
+      display: none !important;
+  }
+
+  /* Optionally hide radio buttons as well */
+  input[type="radio"] {
+      display: none !important;
+  }
 `;
+
 
 // Helper to check if we can actually script on this page
 const isRestrictedPage = (url) => !url || url.startsWith('chrome://') || url.startsWith('edge://');
